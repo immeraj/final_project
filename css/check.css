@@ -1,25 +1,27 @@
-.video-header{
-    min-height: 40vh;
+.section{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.section h1{
+    text-align: center 4px;
+    font-size: 6rem;
+    background: #fff;
+    padding:20px;
+    margin:15px;
+    z-index: 1;
+    opacity: .8;
+}
+.video-container{
     position: absolute;
     top: 0;
     left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    box-shadow: 0px 10px 24px 0px rgba(50, 50, 75, 0.49);
-    font-size: 0;
-    margin: auto;
-    z-index: -100;
-    padding-bottom: 500%;
-  }
-  
-  .video-header  video{
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%;
-    height: 100%;
-  }
+    width:100%;
+}
 
 .my-nav nav-link{
     color: aliceblue;
@@ -158,7 +160,7 @@ hr{
         margin-bottom: 50px;
     }
     .footer-port{
-      margin-top: 1300px;
+      margin-top: 1200px;
   }
 
   .nav-contact{
