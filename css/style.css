@@ -1,27 +1,24 @@
-.video-header {
-  min-height: 40vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
+.bgimg{
+  background-image: url('../img/businessman-3213659_1920.jpg');
+  background-size: 100% 100%;
+  background-attachment: fixed;
   width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  box-shadow: 0px 10px 24px 0px rgba(50, 50, 75, 0.49);
-  font-size: 0;
-  margin: auto;
-  z-index: -100;
-  padding-bottom: 500%;
+  height: 660px;
 }
 
-.video-header video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.headerset{
+  padding-top: 250px;
+  box-sizing: border-box;
 }
 
+.headerset h2{
+  font-size: 42px;
+
+}
+.headerset h1{
+  font-size: 72px;
+  font-weight: bold;
+}
 .my-nav nav-link {
   color: aliceblue;
 }
